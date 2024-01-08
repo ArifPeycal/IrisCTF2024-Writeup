@@ -128,3 +128,6 @@ chosenFoods[1] = pasta
 chosenFoods[2] = steak
 chosenFoods[3] = pizza
 ```
+
+![alt](images/revjohnson.PNG)
+
