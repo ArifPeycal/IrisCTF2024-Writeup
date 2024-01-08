@@ -36,5 +36,7 @@ If the JSON payload is substituted into the SQL statement, it will looks like th
 SELECT * FROM users WHERE username = "skat" AND password = "'" OR (username = "skat" AND password LIKE "irisctf%") OR "'"
 ```
 
+![alt text](images/whatsmypass.PNG)
+
 ### Flag 
 The flag for this challenge is ```irisctf{my_p422W0RD_1S_SQl1}```
