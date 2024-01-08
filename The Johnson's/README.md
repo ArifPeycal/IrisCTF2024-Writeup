@@ -69,7 +69,7 @@ chicken = 4
 ```
 
 The, we need to understand the check() function. 
-```
+```c
 void check(void)
 
 {
@@ -100,6 +100,31 @@ void check(void)
   }
   return;
 }
+```
 
+In order to get the flag, we need to make sure that ```bVar1``` is 1, ```bVar2``` is true, color and food for each members is correct.
 
+```
+1) chosenFoods[2] and chosenFoods[3] are not 2 (pasta)
+2) chosenColors[0] and chosenColors[1] are not 3 (green)
+3) chosenColors[3] is 2 (blue)
+4) chosenColors[2] is not 4 (yellow)
+5) chosenFoods[3] is not 3 (steak)
+6) chosenFoods[0] is 4 (chicken)
+7) chosenColors[1] is not 1 (red)
+```
+
+After listing all the conditions, we can determine which are the correct answer since the options will not repeat twice.
+```
+Colors
+chosenColors[0] = red
+chosenColors[1] = yellow
+chosenColors[2] = green
+chosenColors[3] = blue
+
+Foods
+chosenFoods[0] = chicken
+chosenFoods[1] = pasta
+chosenFoods[2] = steak
+chosenFoods[3] = pizza
 ```
